@@ -5,7 +5,7 @@ document.getElementById("searchBtn").addEventListener("click", () => {
         return;
     }
 
-    const apiKey = "8da8d3c2d8536633b4d1e57b53358b01"; // Replace with your API Key
+    const apiKey = "8da8d3c2d8536633b4d1e57b53358b01"; 
     const url = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=durban';
 
     fetch(url)
